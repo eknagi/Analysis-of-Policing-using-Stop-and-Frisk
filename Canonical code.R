@@ -1,5 +1,4 @@
-#### The everything code ####
-## You'll need the following files to run this:
+##Files needed to run this code:
 ##   - "NYC_CT_2010_Pop" (dbf/cpg/prj/sbn/sbx/shp/shx/xml): census tracts shapefile
 ##   - "NYC PUMAs" (dbf/prj/shp/shx): census PUMAs shapefile
 ##   - "CenPop2010_Mean_TR36.txt": census tracts data with population and coordinates
@@ -10,7 +9,7 @@
 
 #### Data import, processing ####
 ## Change this filepath to your working directory
-filepath = "C:/Users/Mac Tan/Desktop/Mac's Stuff/Notes/NYU/18F/APSTA 2015/Project/NYC_Stop_Frisk"
+filepath = "C:/Users/nyu/Desktop/Project/NYC_Stop_Frisk"
 ## Shapefiles
 # Census tracts
 NYC_tracts <- readOGR(dsn = filepath, layer = "NYC_CT_2010_Pop")
